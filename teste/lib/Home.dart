@@ -1,10 +1,15 @@
+// ignore: file_names
+
 import 'package:flutter/material.dart';
-import 'package:teste/ContestacaoEnviar.dart';
+//import 'package:teste/ContestacaoEnviar.dart';
 import 'package:teste/Historico.dart';
-import 'package:teste/contestarStrike.dart';
+import 'package:teste/ProfilePage.dart';
+//import 'package:teste/contestarStrike.dart';
 //import 'package:url_launcher/url_launcher.dart';
 import 'notification.dart';
-//import 'Historico.dart';
+// ignore: file_names
+import 'PremiumPage.dart';
+import 'agenda.dart';
 
 void main() => runApp(MyApp());
 
@@ -30,7 +35,7 @@ class _MainPageState extends State<MainPage> {
   final List<Widget> _pages = [
     HomePage(),
     HistoricoPage(),
-    Placeholder(),
+    ProfilePage(),
     Placeholder(),
     NotificationsPage(),
   ];
@@ -81,6 +86,8 @@ class _MainPageState extends State<MainPage> {
 }
 
 class ConfigPage extends StatelessWidget {
+  const ConfigPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -91,6 +98,8 @@ class ConfigPage extends StatelessWidget {
 }
 
 class EstatisticaPage extends StatelessWidget {
+  const EstatisticaPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -101,8 +110,10 @@ class EstatisticaPage extends StatelessWidget {
 }
 
 class PremiumPage extends StatelessWidget {
+  const PremiumPage({super.key});
+
   @override
-  Widget build(BuildContext context) {
+ Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Premium')),
       body: Center(child: Text('Página Premium')),
@@ -111,6 +122,8 @@ class PremiumPage extends StatelessWidget {
 }
 
 class FavoritosPage extends StatelessWidget {
+  const FavoritosPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -121,6 +134,8 @@ class FavoritosPage extends StatelessWidget {
 }
 
 class PerfilPage extends StatelessWidget {
+  const PerfilPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -131,6 +146,8 @@ class PerfilPage extends StatelessWidget {
 }
 
 class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
   Future<void> _launchUrl(Uri url) async {
     //if (!await launchUrl(url)) {
       //throw Exception('Não foi possível abrir $url');
@@ -281,19 +298,19 @@ class HomePage extends StatelessWidget {
                     Navigator.push(context, MaterialPageRoute(builder: (context) => ConfigPage()));
                     break;
                   case 'historico':
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => Placeholder()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => HistoricoPage()));
                     break;
                   case 'estatistica':
                     Navigator.push(context, MaterialPageRoute(builder: (context) => EstatisticaPage()));
                     break;
                   case 'premium':
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => PremiumPage()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Planos()));
                     break;
                   case 'favoritos':
                     Navigator.push(context, MaterialPageRoute(builder: (context) => FavoritosPage()));
                     break;
                   case 'perfil':
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => PerfilPage()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => ProfilePage()));
                     break;
                 }
               },
