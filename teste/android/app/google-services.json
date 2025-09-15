@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "32850116552",
+    "project_id": "magno-opus-9680e",
+    "storage_bucket": "magno-opus-9680e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32850116552:android:8aa77e36a2072ba2e5cafd",
+        "android_client_info": {
+          "package_name": "Magno.Opus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3cMZYdpiuz2OjfAi4s0vJk7wFqgFjVco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32850116552:android:ed40c6da4fc64e64e5cafd",
+        "android_client_info": {
+          "package_name": "com.example.teste"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3cMZYdpiuz2OjfAi4s0vJk7wFqgFjVco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
