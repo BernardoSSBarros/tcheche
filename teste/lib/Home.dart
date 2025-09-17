@@ -2,12 +2,15 @@
 
 import 'package:flutter/material.dart';
 //import 'package:teste/ContestacaoEnviar.dart';
-import 'package:teste/Historico.dart';
-import 'package:teste/ProfilePage.dart';
+//import 'package:teste/Historico.dart';
+//import 'package:teste/ProfilePage.dart';
+import 'Historico.dart';
+import 'ProfilePage.dart';
 //import 'package:teste/contestarStrike.dart';
 //import 'package:url_launcher/url_launcher.dart';
 import 'notification.dart';
 // ignore: file_names
+
 import 'PremiumPage.dart';
 import 'agenda.dart';
 
@@ -223,31 +226,31 @@ class HomePage extends StatelessWidget {
         'label': 'Suporte Técnico',
         'url': Uri.parse('https://example.com'),
         'color': const Color.fromARGB(255, 66, 38, 226),
-        'image': 'assets/cpu.png'
+        'image': 'assests/cpu.png'
       },
       {
         'label': 'Pedreiro',
         'url': Uri.parse('https://example.com'),
         'color': const Color.fromARGB(255, 214, 150, 10),
-        'image': 'assets/hammer.png'
+        'image': 'assests/hammer.png'
       },
       {
         'label': 'Manutenção',
         'url': Uri.parse('https://example.com'),
         'color': const Color.fromARGB(255, 198, 218, 23),
-        'image': 'assets/settings.png'
+        'image': 'assests/settings.png'
       },
       {
         'label': 'Cozinheiro',
         'url': Uri.parse('https://example.com'),
         'color': const Color.fromARGB(255, 201, 29, 29),
-        'image': 'assets/chef.png'
+        'image': 'assests/chef.png'
       },
       {
         'label': 'Diarista',
         'url': Uri.parse('https://example.com'),
         'color': Colors.tealAccent,
-        'image': 'assets/cleaning.png'
+        'image': 'assests/cleaning.png'
       },
     ];
 
@@ -304,7 +307,7 @@ class HomePage extends StatelessWidget {
                     Navigator.push(context, MaterialPageRoute(builder: (context) => EstatisticaPage()));
                     break;
                   case 'premium':
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => Planos()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => PremiumPage()));
                     break;
                   case 'favoritos':
                     Navigator.push(context, MaterialPageRoute(builder: (context) => FavoritosPage()));
@@ -374,4 +377,3 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-

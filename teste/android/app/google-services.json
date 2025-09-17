@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "32850116552",
-    "project_id": "magno-opus-9680e",
-    "storage_bucket": "magno-opus-9680e.firebasestorage.app"
+    "project_number": "1084513530190",
+    "project_id": "teste-3c5a3",
+    "storage_bucket": "teste-3c5a3.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:32850116552:android:8aa77e36a2072ba2e5cafd",
+        "mobilesdk_app_id": "1:1084513530190:android:0cd8f85f98c22254036e1f",
         "android_client_info": {
           "package_name": "Magno.Opus"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD3cMZYdpiuz2OjfAi4s0vJk7wFqgFjVco"
+          "current_key": "AIzaSyCbXziUuxtWtcYMpP6uK2RYe655Q8_acSg"
         }
       ],
       "services": {
@@ -26,7 +26,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:32850116552:android:ed40c6da4fc64e64e5cafd",
+        "mobilesdk_app_id": "1:1084513530190:android:6f6227e6096423b0036e1f",
         "android_client_info": {
           "package_name": "com.example.teste"
         }
@@ -34,7 +34,26 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD3cMZYdpiuz2OjfAi4s0vJk7wFqgFjVco"
+          "current_key": "AIzaSyCbXziUuxtWtcYMpP6uK2RYe655Q8_acSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084513530190:android:ab7e341cdc38d15b036e1f",
+        "android_client_info": {
+          "package_name": "tcc.MO"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbXziUuxtWtcYMpP6uK2RYe655Q8_acSg"
         }
       ],
       "services": {

@@ -1,8 +1,11 @@
 
 import 'package:flutter/material.dart';
-import 'package:teste/perfila.dart';
-import 'package:teste/contestacaoEnviar.dart';
-import 'package:teste/contestarStrike.dart';
+//import 'package:teste/perfila.dart';
+//import 'package:teste/contestacaoEnviar.dart';
+//import 'package:teste/contestarStrike.dart';
+import 'PerfilA.dart';
+import 'contestarStrike.dart';
+import'contestacaoEnviar.dart';
 import 'Home.dart';
 
 

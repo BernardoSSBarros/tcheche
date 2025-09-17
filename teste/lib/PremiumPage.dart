@@ -1,7 +1,7 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
-import 'home.dart';
+//import 'package:url_launcher/url_launcher.dart';
+//import 'Home.dart';
 
 void main() => runApp(MyApp());
  
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
  
 class HomePage extends StatelessWidget {
   Future<void> _launchUrl(Uri url) async {
-    if (!await launchUrl(url)) {
+    {
       throw Exception('Não foi possível abrir $url');
     }
   }

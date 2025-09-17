@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'register_screen.dart';
+import '/Home.dart'; 
 import '../services/auth_service.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -22,8 +23,15 @@ class _LoginScreenState extends State<LoginScreen> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            TextField(controller: _emailController, decoration: const InputDecoration(labelText: 'Email')),
-            TextField(controller: _passwordController, decoration: const InputDecoration(labelText: 'Senha'), obscureText: true),
+            TextField(
+              controller: _emailController,
+              decoration: const InputDecoration(labelText: 'Email'),
+            ),
+            TextField(
+              controller: _passwordController,
+              decoration: const InputDecoration(labelText: 'Senha'),
+              obscureText: true,
+            ),
             const SizedBox(height: 16),
             ElevatedButton(
               onPressed: () async {
@@ -32,15 +40,31 @@ class _LoginScreenState extends State<LoginScreen> {
                     email: _emailController.text,
                     password: _passwordController.text,
                   );
-                  ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Login bem-sucedido!')));
+
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Login bem-sucedido!')),
+                  );
+
+                  // Navega para a HomeScreen após login
+                  Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const HomePage(),
+                    ),
+                  );
                 } catch (e) {
-                  ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Erro: $e')));
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Erro: $e')),
+                  );
                 }
               },
               child: const Text('Login'),
             ),
             TextButton(
-              onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const RegisterScreen())),
+              onPressed: () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const RegisterScreen()),
+              ),
               child: const Text('Criar Conta'),
             ),
           ],

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:teste/PerfilG.dart';
-import 'package:teste/PerfilJ.dart';
+//import 'package:teste/PerfilG.dart';
+//import 'package:teste/PerfilJ.dart';
 import 'Home.dart';
 import 'notification.dart';
-//import 'PerfilJ.dart';
-//import 'PerfilG.dart';
+import 'PerfilJ.dart';
+import 'PerfilG.dart';
 
 void main() => runApp(MyApp());
 

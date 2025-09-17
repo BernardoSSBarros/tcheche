@@ -41,46 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAgO9wAhq8K_XMprbyKU0cpUG7sa7mo2cw',
-    appId: '1:32850116552:web:f6aacef9fa6d5c8be5cafd',
-    messagingSenderId: '32850116552',
-    projectId: 'magno-opus-9680e',
-    authDomain: 'magno-opus-9680e.firebaseapp.com',
-    storageBucket: 'magno-opus-9680e.firebasestorage.app',
+    apiKey: 'AIzaSyC7Cml1bGTaoH24MDMDQ83YWGJsFTkIe3c',
+    appId: '1:1084513530190:web:9aece578b5d3ea6a036e1f',
+    messagingSenderId: '1084513530190',
+    projectId: 'teste-3c5a3',
+    authDomain: 'teste-3c5a3.firebaseapp.com',
+    storageBucket: 'teste-3c5a3.firebasestorage.app',
+    measurementId: 'G-P3JX0V4HGC',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD3cMZYdpiuz2OjfAi4s0vJk7wFqgFjVco',
-    appId: '1:32850116552:android:ed40c6da4fc64e64e5cafd',
-    messagingSenderId: '32850116552',
-    projectId: 'magno-opus-9680e',
-    storageBucket: 'magno-opus-9680e.firebasestorage.app',
+    apiKey: 'AIzaSyCbXziUuxtWtcYMpP6uK2RYe655Q8_acSg',
+    appId: '1:1084513530190:android:6f6227e6096423b0036e1f',
+    messagingSenderId: '1084513530190',
+    projectId: 'teste-3c5a3',
+    storageBucket: 'teste-3c5a3.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAh08Z6P11RiR4vJu2hGvq0V-Jp_8tKl7g',
-    appId: '1:32850116552:ios:20e872b7cb4a2c93e5cafd',
-    messagingSenderId: '32850116552',
-    projectId: 'magno-opus-9680e',
-    storageBucket: 'magno-opus-9680e.firebasestorage.app',
+    apiKey: 'AIzaSyDtRL5-2EVzyO08wI2y_Wygg_ykrERtwqs',
+    appId: '1:1084513530190:ios:50f54521421f9312036e1f',
+    messagingSenderId: '1084513530190',
+    projectId: 'teste-3c5a3',
+    storageBucket: 'teste-3c5a3.firebasestorage.app',
     iosBundleId: 'com.example.teste',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAh08Z6P11RiR4vJu2hGvq0V-Jp_8tKl7g',
-    appId: '1:32850116552:ios:20e872b7cb4a2c93e5cafd',
-    messagingSenderId: '32850116552',
-    projectId: 'magno-opus-9680e',
-    storageBucket: 'magno-opus-9680e.firebasestorage.app',
+    apiKey: 'AIzaSyDtRL5-2EVzyO08wI2y_Wygg_ykrERtwqs',
+    appId: '1:1084513530190:ios:50f54521421f9312036e1f',
+    messagingSenderId: '1084513530190',
+    projectId: 'teste-3c5a3',
+    storageBucket: 'teste-3c5a3.firebasestorage.app',
     iosBundleId: 'com.example.teste',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAgO9wAhq8K_XMprbyKU0cpUG7sa7mo2cw',
-    appId: '1:32850116552:web:60fafb5a04cb2c3de5cafd',
-    messagingSenderId: '32850116552',
-    projectId: 'magno-opus-9680e',
-    authDomain: 'magno-opus-9680e.firebaseapp.com',
-    storageBucket: 'magno-opus-9680e.firebasestorage.app',
+    apiKey: 'AIzaSyC7Cml1bGTaoH24MDMDQ83YWGJsFTkIe3c',
+    appId: '1:1084513530190:web:17b75b821ce316e2036e1f',
+    messagingSenderId: '1084513530190',
+    projectId: 'teste-3c5a3',
+    authDomain: 'teste-3c5a3.firebaseapp.com',
+    storageBucket: 'teste-3c5a3.firebasestorage.app',
+    measurementId: 'G-3CD73QH103',
   );
+
 }
